@@ -1,0 +1,23 @@
+#doctorChess {
+  max-width: 100%;
+}
+
+.bodySection p {
+  text-align: left;
+  margin: 10px 20vw;
+}
+
+.leftHeader {
+  text-align: left;
+  margin: 20px 20vw;
+}
+
+@media screen and (max-width: 600px) {
+  .bodySection p {
+    margin: 10px 10vw;
+  }
+
+  .leftHeader {
+    margin: 20px 10vw;
+  }
+}

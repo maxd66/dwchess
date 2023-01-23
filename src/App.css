@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
+.App {
+  text-align: center;
+  color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #003b6f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffe0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.inactiveLink {
+  cursor: default;
+  border-bottom: solid white 2px;
+}
+
+.pageButton {
+  cursor: pointer;
+  border-bottom: none;
+}
+
+.doctorFont {
+  font-family: "Nova Square", cursive;
+  font-size: 48px;
+}
+
+nav {
+  min-width: 65vw;
+  display: flex;
+  justify-content: space-evenly;
+}
