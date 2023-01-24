@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./Pieces.css";
 import Pawn from "../../components/Pawn";
 import Bishop from "../../components/Bishop";
+import Knight from "../../components/Knight";
+import Rook from "../../components/Rook";
 
 function Pieces() {
   const [piece, setPiece] = useState({ string: "pawn", comp: <Pawn /> });
@@ -20,9 +22,11 @@ function Pieces() {
           break;
 
         case "knight":
+          setPiece({ string: "knight", comp: <Knight /> });
           break;
 
         case "rook":
+          setPiece({ string: "rook", comp: <Rook /> });
           break;
 
         case "queen":

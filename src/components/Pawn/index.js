@@ -7,7 +7,7 @@ import ref from "../../images/pawn/pRef.png";
 
 function Pawn() {
   return (
-    <div>
+    <div className="pieceContainer">
       <img
         id="pieceRender1"
         className="pieceImg"

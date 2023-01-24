@@ -7,7 +7,7 @@ import ref from "../../images/bishop/bRef.png";
 
 function Bishop() {
   return (
-    <div>
+    <div className="pieceContainer">
       <img
         id="bishopRender1"
         className="pieceImg"
