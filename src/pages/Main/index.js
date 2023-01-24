@@ -1,14 +1,49 @@
 import doctorChess from "../../images/dw-chess-scene.jpg";
+import sceneRender from "../../images/scene-render2.png";
 import "./Main.css";
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircle as fasCircle } from "@fortawesome/free-solid-svg-icons";
+import { faCircle as farCircle } from "@fortawesome/free-regular-svg-icons";
 
 function Main() {
+  const [selectedImage, setSelectedImage] = useState(doctorChess);
+  const [firstBubble, setFirstBubble] = useState(fasCircle);
+  const [secondBubble, setSecondBubble] = useState(farCircle);
+
+  const handleImageChange = (e) => {
+    e.preventDefault();
+    const target = e.target.id;
+    if (target === "firstBubble" && firstBubble !== fasCircle) {
+      console.log("first bubble clicked");
+      setFirstBubble(fasCircle);
+      setSecondBubble(farCircle);
+      setSelectedImage(doctorChess);
+    } else if (target === "secondBubble" && secondBubble !== fasCircle) {
+      setSelectedImage(sceneRender);
+      setFirstBubble(farCircle);
+      setSecondBubble(fasCircle);
+    }
+  };
   return (
     <div className="bodySection">
       <img
         id="doctorChess"
-        src={doctorChess}
+        src={selectedImage}
         alt="the doctor behind a chessboard"
       />
+      <div id="image-selector">
+        <FontAwesomeIcon
+          icon={firstBubble}
+          id="firstBubble"
+          onClick={(event) => handleImageChange(event)}
+        />
+        <FontAwesomeIcon
+          icon={secondBubble}
+          id="secondBubble"
+          onClick={(event) => handleImageChange(event)}
+        />
+      </div>
       <h2 className="doctorFont leftHeader">Hello.</h2>
       <p>
         My name is <strong>not</strong> the Doctor, but I am a huge nerd. I did

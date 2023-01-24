@@ -1,0 +1,17 @@
+.pieceImg {
+  max-width: 100%;
+}
+
+#iconList {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+}
+
+.activeLink {
+  cursor: pointer;
+}
+
+.inactiveLink {
+  opacity: 0.5;
+}

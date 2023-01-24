@@ -2,22 +2,25 @@
   max-width: 100%;
 }
 
+.bodySection {
+  margin: 0px 15vw;
+  box-shadow: 0px 0px 20px #003b6f;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
 .bodySection p {
   text-align: left;
-  margin: 10px 20vw;
+  margin: 20px 10px 0px;
 }
 
 .leftHeader {
   text-align: left;
-  margin: 20px 20vw;
+  margin: 20px 10px 0px;
 }
 
 @media screen and (max-width: 600px) {
-  .bodySection p {
-    margin: 10px 10vw;
-  }
-
-  .leftHeader {
-    margin: 20px 10vw;
+  .bodySection {
+    margin: 0px 0vw;
   }
 }

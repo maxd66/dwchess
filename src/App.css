@@ -3,6 +3,10 @@
 .App {
   text-align: center;
   color: black;
+  background-color: #ffffe0;
+  background-image: url("./images/tardis-icon.png");
+  background-size: 125px;
+  background-position: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,6 +41,16 @@
 .doctorFont {
   font-family: "Nova Square", cursive;
   font-size: 48px;
+}
+
+#firstBubble {
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+#secondBubble {
+  margin: 0px 5px;
+  cursor: pointer;
 }
 
 nav {
