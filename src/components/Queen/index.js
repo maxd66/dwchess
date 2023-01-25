@@ -31,9 +31,9 @@ function Queen() {
       </p>
       <p>
         I was particularly excited when I landed on the number of spikes on her
-        crown. I tried my best to count on the image and I got on 6 spikes on
-        each side. Meaning 12 spikes total. One for every version of the Doctor
-        so far (as of this episode).
+        crown. I tried my best to count on the image and I got 6 spikes on each
+        side. Meaning 12 spikes total. One for every version of the Doctor (as
+        of this episode).
       </p>
       <img
         id="queenRender2"
