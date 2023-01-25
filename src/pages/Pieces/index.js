@@ -4,6 +4,8 @@ import Pawn from "../../components/Pawn";
 import Bishop from "../../components/Bishop";
 import Knight from "../../components/Knight";
 import Rook from "../../components/Rook";
+import Queen from "../../components/Queen";
+import King from "../../components/King";
 
 function Pieces() {
   const [piece, setPiece] = useState({ string: "pawn", comp: <Pawn /> });
@@ -30,9 +32,11 @@ function Pieces() {
           break;
 
         case "queen":
+          setPiece({ string: "queen", comp: <Queen /> });
           break;
 
         case "king":
+          setPiece({ string: "king", comp: <King /> });
           break;
 
         default:

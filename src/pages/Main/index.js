@@ -84,6 +84,33 @@ function Main() {
         like any rational person I decided to make them myself. So, I did my
         best and here they are. I hope you enjoy.
       </p>
+      <h3 className="doctorFont leftHeader">The Missing Knight.</h3>
+      <p>
+        While working on these pieces and meticulously analyzing many images and
+        scenes from this show, I realized there was something wrong. The chess
+        game the Doctor and his opponent played was not a famous game or of any
+        major significance, but there is something missing from the image above.
+      </p>
+      <p>
+        The white pieces are all accounted for, on and off the board. The black
+        pieces, however, are lacking a Knight. Of course, it could be a simple
+        error by the prop department or whoever is responsible for ensuring
+        continuity, but how much cooler would it be if it were on purpose?
+      </p>
+      <p>
+        At first I thought the Doctor was playing black and it was symbolism.
+        The Doctor's side has one less Knight because he is the Knight. The
+        black Knight, saving the day. Making decisions and sacrifices no one
+        else can. And he is always tricky. However, the Doctor was playing as
+        white, so that theory went out the window.
+      </p>
+      <p>
+        My second idea was that maybe they were implying the Doctor cheated
+        while the Cybermen mainframe was inhibited. Reasonable, but less cool.
+        Maybe in a deleted scene the Cybermen got cocky and decided to give it
+        away and tossed it to the side. Whatever it is, I hope it was on
+        purpose. What do you think?
+      </p>
     </div>
   );
 }
