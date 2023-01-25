@@ -105,11 +105,11 @@ function Main() {
         white, so that theory went out the window.
       </p>
       <p>
-        My second idea was that maybe they were implying the Doctor cheated
-        while the Cybermen mainframe was inhibited. Reasonable, but less cool.
-        Maybe in a deleted scene the Cybermen got cocky and decided to give it
-        away and tossed it to the side. Whatever it is, I hope it was on
-        purpose. What do you think?
+        My second idea was maybe they were implying the Doctor cheated while the
+        Cybermen mainframe was inhibited. Reasonable, but less cool. Maybe in a
+        deleted scene the Cybermen got cocky and decided to give it away and
+        tossed it to the side. Whatever it is, I hope it was on purpose. What do
+        you think?
       </p>
     </div>
   );
