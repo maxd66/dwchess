@@ -64,7 +64,7 @@ function Main() {
       <p>
         I recently started binging Doctor Who and was immediately drawn in by
         the whimsy, wacky plot, and the dark and interesting subtext the show
-        carries. Season 7 Episode 12, Nightmare in Silver sort of revolves
+        carries. Season 7 Episode 13, Nightmare in Silver sort of revolves
         around chess. I was extremely excited because I am a secret chess nerd.
         I've been looking for a chess set that I really loved, so that I could
         display it and never convince my friends to play with me. The set from
